@@ -1,0 +1,14 @@
+#inputImage{
+    background: url(https://bootdey.com/img/Content/avatar/avatar7.png);
+    background-size:cover;
+    width:11rem!important;
+    height: 11rem!important;
+}
+
+#avatar {
+    background: #4e73df;
+    width: auto;
+    color: white;
+    margin: auto;
+    padding: 1rem 1rem 2rem;
+}

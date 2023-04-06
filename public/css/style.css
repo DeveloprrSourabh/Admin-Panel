@@ -1,0 +1,265 @@
+.inputimage {
+    background: url(https://bootdey.com/img/Content/avatar/avatar7.png);
+    background-size: cover;
+    width: 11rem !important;
+    height: 11rem !important;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+
+#avatar {
+    opacity: 0;
+    /* position: absolute; */
+    /* bottom: 5.5rem; */
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    /* left: 28.3rem; */
+    margin: auto;
+    margin-top: -11rem;
+}
+
+#nav-img {
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 50%;
+    margin: 0px !important;
+}
+
+.edit {
+    width: 2rem;
+    position: absolute;
+    left: 20rem;
+    top: 10rem;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 2s;
+}
+
+.col-md-6:hover .edit {
+    opacity: 1;
+}
+
+.heads {
+    font-size: x-large;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+.w_set {
+    width: 57% !important;
+}
+
+.in_col1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.in_heading {
+    border-bottom: dashed;
+    width: fit-content;
+    margin: auto;
+}
+
+.inv_number {
+    width: 48%;
+}
+.inv_num_detail{
+    border: none;
+    background: transparent;
+}
+
+.inv_num_detail:focus{
+    border: none!important;
+    outline: none;
+}
+input:focus{
+
+    outline: none;
+}
+
+.inv_num {
+    height: fit-content;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+    font-size: medium;
+}
+
+.lates_inv {
+    font-size: smaller;
+}
+
+hr {
+
+    height: 2px !important;
+    background: #0000001a;
+}
+
+.add_more {
+    margin: 12px 12px 1rem 1.7rem;
+
+}
+
+.containers {
+    background: #dae9f636;
+    padding: 2rem 1px 2rem 2rem;
+}
+
+.b_input {
+    width: 92%;
+    padding: 8px;
+    border: 2px solid rgb(0 0 0 / 25%);
+    background: transparent;
+}
+
+.bill_by {
+    padding-bottom: 12px;
+}
+
+.f_bill {
+    color: black;
+    font-size: large;
+    border-bottom: dashed;
+    margin-right: 9px;
+}
+
+.business_title {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    margin-bottom: 1rem;
+}
+
+.b_details {
+    color: black;
+}
+
+.b_edit {
+    color: blue;
+}
+
+.b_namev {
+    color: #000000cc;
+    font-size: 14px;
+}
+
+.buisness_detail {
+    margin: 2rem 2.3rem 2rem 0px;
+    background: white;
+    padding: 2rem;
+    border: 3px solid rgb(0 0 0 / 21%);
+}
+
+.select_client {
+    margin: 39px 1px;
+}
+
+.or {
+    margin: 11px;
+}
+
+#btn_width {
+    padding: 9px 3rem;
+    border-radius: 6px;
+}
+
+.table_input {
+    width: 80px;
+    border: none;
+    border-bottom: 3px solid #80808070;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.input_table {
+    border: none;
+    border-bottom: 3px solid #80808070;
+    border-radius: 0px;
+    background: transparent;
+}
+
+table,
+td {
+    border: none !important;
+}
+
+.head_tr {
+    background: #224abe;
+    color: white;
+}
+
+.table_add {
+    width: 31% !important;
+    margin: revert !important;
+}
+
+.twocol {
+    margin: 3rem 0px;
+    text-align: center;
+}
+
+.bg_ch {
+    width: 96%;
+
+}
+
+.Line_add {
+    padding: 1rem;
+    background: #eef7ff;
+    border: dashed rgb(78 115 223 / 47%);
+    border-radius: 6px;
+}
+
+.firstrow {
+    font-weight: 700;
+}
+
+.impr {
+    margin: inherit !important;
+    padding: 2rem 1px !important;
+
+    position: relative;
+    left: 12rem;
+
+}
+
+.total {
+    padding: 1rem 1px;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: end;
+    margin-left: 4rem !important;
+}
+
+.fa-plus {
+    color: #224abe;
+    font-size: 12px;
+    border: 1px solid #224abe;
+    padding: 3.5px 5px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+i {
+    color: #224abe;
+}
+.btn-save{
+    width:fit-content!important;
+}
+.read_only{
+    outline: none!important;
+    border: none!important;
+    width: 95px!important;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.collapse-item{
+    color: black;
+}
